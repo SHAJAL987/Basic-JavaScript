@@ -43,3 +43,43 @@ console.log("Array Position : car[3]: "+car[3]);
 console.log(Object.keys(car));
 
 console.log("2nd commit");
+
+let x = 20;
+let arr1 = [10,20,30,40];
+let obj1 = {
+    name: "baten",
+    salary:"32000"
+}
+console.log(typeof x);
+console.log(typeof(arr1));
+console.log(typeof(obj1));
+
+console.log(Array.isArray(arr1));
+console.log(Array.isArray(obj1));
+console.log(arr1 instanceof Array);
+console.log(arr1.toString());
+console.log(arr1.join("*"));
+console.log(array0[array0.length]="baten");
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//fruits.splice(2, 2, "Lemon", "Kiwi");
+console.log(fruits);
+
+console.log(fruits.slice(2));
+console.log(fruits.slice(0,3));
+
+//Soting------>>>
+let arr2 = ["Shajal","Arif","Baten","Nahian","Aysha","Lahm"];
+let arr3 = [20,1,3,27,5,4,7];
+let rev = arr2.reverse();
+console.log(rev);
+let ascn = arr2.sort(function(a,b){
+    return a-b;
+});
+console.log("Array Ascending : "+ascn);
+let desc = arr3.sort(function(a,b){
+    return b-a;
+});
+console.log("Array Descending : "+desc);
+
+
