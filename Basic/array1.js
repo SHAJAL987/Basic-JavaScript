@@ -82,4 +82,9 @@ let desc = arr3.sort(function(a,b){
 });
 console.log("Array Descending : "+desc);
 
+//Math.max.apply
+console.log(Math.max.apply(null,arr3));
+console.log(Math.min.apply(null,arr3));
+
+
 

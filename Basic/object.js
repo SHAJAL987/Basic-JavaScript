@@ -50,5 +50,23 @@ obj.result.map((val,index) =>{
     }
     return "No data found"
 })
+console.log("--------------------->")
+let myObject = {
+    fname:"Ashiqul Islam",
+    lname:"Shajal",
+    age:25
+}
+console.log(typeof(myObject));
+for(let x in myObject){
+    if(x=='fname'){
+        console.log(`First Name: ${myObject[x]}`);
+    }else if(x=='lname'){
+        console.log(`Last Name: ${myObject[x]}`);
+    }else {
+        console.log(`Age: ${myObject[x]}`);
+    }
+}
+
+
 
 
